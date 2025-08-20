@@ -2,6 +2,13 @@ body {
     background-color: rgba(243, 218, 224, 0.863);
 }
 
+.subtitulo{
+    color: rgb(0, 54, 3);
+}
 .parrafo{
-    color:rgb(88, 3, 3);
+    color:rgb(139, 7, 122);
+    background-color: aliceblue;
+}
+#parrafoUnico {
+    color: chocolate;
 }
