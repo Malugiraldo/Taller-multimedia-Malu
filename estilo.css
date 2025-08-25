@@ -1,16 +1,16 @@
 body {
-    background-color: rgba(243, 218, 224, 0.863);
+    background-color:blanchedalmond;
 }
 
 .subtitulo{
-    color: rgb(0, 54, 3);
+    color:rgb(129, 95, 52);
 }
 .parrafo{
-    color:rgb(139, 7, 122);
-    background-color: aliceblue;
+    color:rgb(128, 62, 15);
+    background-color: rgb(255, 247, 234);
 }
 #parrafoUnico {
-    color: chocolate;
+    color: rgb(147, 72, 18);
 }
 
 #contenedor1{
@@ -18,19 +18,65 @@ body {
     height: 80vh;
     border: 1px solid black;
     margin: 15px;
+    position:relative;
 
 }
 
 #contenedor2{
     width: 50vw;
     height: 80vh;
-    border: 1px solid black;
+    border: 1px solid rgb(125, 0, 112);
     margin: 15px;
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
     
 .cuadrado{
-    width: 25vw;
-    height: 40vh;
-    background-color: hotpink;
-    border: 4px solid magenta ;
+    width: 32.5%;
+    height: 32.5%;
+    background-color: rgb(238, 146, 80);
+    border: 4px solid rgb(255, 175, 118);
+    position:absolute;
 }
+
+.cuadrados{
+    width: 32.5%;
+    height: 32.5%;
+    background-color: rgb(238, 146, 80);
+    border: 4px solid rgb(255, 175, 118);
+}
+
+#cuadro1{
+top: 0%;
+left:0%;
+}
+
+#cuadro2{
+top: 33.3%;
+left:33.3%;
+}
+
+#cuadro3{
+top: 66.6%;
+left:66.6%;
+}
+
+#cuadro4{
+top: 0%;
+right: 0%;
+}
+
+#cuadro5{
+top: 33.3%;
+right:33.3%;
+}
+
+#cuadro6{
+top: 66.6%;
+right:66.6%;
+}
+
