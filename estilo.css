@@ -104,18 +104,9 @@ position: relative;
     border-radius: 50%; /* redondea los bordes de la figura*/
     border: 3px solid brown; /* borde de la figura: grosor, estilo, color */
     position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
-    top: 20%; /* posición desde el borde superior del lienzo */
-    left: 35%; /* posición desde el borde izquierdo del lienzo */
-}
-
-.cuadrado {
-    width: 100px;
-    height: 100px;
-    background-color:  chocolate;
-    border: 3px solid brown;
-    position: absolute;
-    bottom: 10%;
-    right: 25%;
+    top: 25%; /* posición desde el borde superior del lienzo */
+    left: 40%; /* posición desde el borde izquierdo del lienzo */
+    z-index: 1;
 }
  
 /* línea hecha con border*/
@@ -276,38 +267,70 @@ position: relative;
 
 .lineaHorizontal9{
 width: 10px;
-    height: 60%;
+    height: 65%;
     border: 3px solid chocolate; /* borde de la figura: grosor, estilo, color */
     background-color:  beige;
     position: absolute;
-    top: 33%;
+    top: 30%;
     left: 60%;
-    transform: rotate(55deg);
+    transform: rotate(56deg);
 }
 
 .lineaHorizontal10{
 width: 10px;
-    height: 50%;
+    height: 60%;
     border: 3px solid chocolate; /* borde de la figura: grosor, estilo, color */
     background-color:  beige;
     position: absolute;
-    top: 0%;
-    left: 60%;
-    transform: rotate(90deg);
+    top: -3%;
+    left: 62%;
+    transform: rotate(120deg);
 }
 
 .lineaVertical9{
 width: 10px;
-    height: 70%;
+    height: 65%;
     border: 3px solid chocolate; /* borde de la figura: grosor, estilo, color */
     background-color:  beige;
     position: absolute;
-    top: 8%;
-    right: 70%;
-    transform: rotate(15deg);
-
-
+    top: 12%;
+    right: 61%;
+    transform: rotate(3deg);
 }
+
+.lineaHorizontal11{
+    width: 15px;
+    height: 62%;
+    border: 3px solid chocolate; /* borde de la figura: grosor, estilo, color */
+    background-color:  beige;
+    position: absolute;
+    top: -6%;
+    left: 62%;
+    transform: rotate(120deg);
+}
+
+.lineaHorizontal12{
+width: 15px;
+    height: 65%;
+    border: 5px solid beige; /* borde de la figura: grosor, estilo, color */
+    background-color:  chocolate;
+    position: absolute;
+    top: 33%;
+    left: 61%;
+    transform: rotate(56deg);
+}
+
+.lineaVertical10 {
+    width: 10px;
+    height: 10%;
+   border: 3px solid chocolate; /* borde de la figura: grosor, estilo, color */
+    background-color:  beige;
+    position: absolute;
+    top: 39%;
+    left: 85%;
+    transform: rotate(172deg);
+}
+
 
  #triangle-left {
       width: 0%;
@@ -319,5 +342,16 @@ width: 10px;
       left: 25%; 
       position: absolute;
       transform: rotate(300deg);
-      
+    }
+
+   #triangle-left2 {
+      width: 0%;
+      height: 0%;
+      border-top: 125px solid transparent;
+      border-right: 250px solid beige;
+      border-bottom: 125px solid transparent;
+      top: 30%;
+      left: 33%; 
+      position: absolute;
+      transform: rotate(300deg);
     }
