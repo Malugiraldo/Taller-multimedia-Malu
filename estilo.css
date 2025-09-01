@@ -357,6 +357,42 @@ width: 15px;
       transform: rotate(300deg);
     }
 
+    @keyframes spin{
+          0% {
+    transform: rotate(0deg); /* Start at 0 degrees rotation */
+  }
+        12.5%{
+     transform: rotate(45deg);
+     }
+
+      25%{
+     transform: rotate(90deg);
+     }
+
+      37.5%{
+     transform: rotate(135deg);
+     }
+
+     50%{
+     transform: rotate(180deg);
+     }
+
+      75%{
+     transform: rotate(225deg);
+     }
+
+      87.5%{
+     transform: rotate(270deg);
+     }
+
+  100% {
+    transform: rotate(360deg); /* Rotate a full 360 degrees */
+  }
+}
+    #triangle-left:hover{
+        animation:spin 5s linear infinite alternate;
+    }
+
    #triangle-left2 {
       width: 0%;
       height: 0%;
