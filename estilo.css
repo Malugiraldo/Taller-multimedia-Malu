@@ -2,6 +2,19 @@ body {
     background-color:blanchedalmond;
 }
 
+.título{
+    font-family: :Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    font-style: normal;
+    font-size: 5em;
+}
+
+.título:hover{
+    font-weight:700;
+    color:brown;
+}
+
+
 .subtitulo{
     color:rgb(129, 95, 52);
 }
