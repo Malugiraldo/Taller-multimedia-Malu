@@ -6,18 +6,35 @@ body {
     font-family: :Georgia, 'Times New Roman', Times, serif;
     font-weight:300;
     font-style: normal;
-    font-size: 5em;
+    font-size: 7em;
+    text-align: center; 
+      color:rgb(135, 95, 52);
 }
 
 .título:hover{
     font-weight:700;
-    color:brown;
+    color:rgb(147, 72, 18);
 }
 
+.lineaRectaH{
 
+     width: 100%;
+    height: 0%;
+    border: 3px solid black; /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 25%;
+     transform: translateY(-100px);
+}
 .subtitulo{
     color:rgb(129, 95, 52);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-weight:200;
+    font-style: normal;
+    font-size: 5em;
+    text-align: center; 
+    transform: translateY(10px); /* Moves the title 10px higher without affecting surrounding elements */
 }
+
 .parrafo{
     color:rgb(128, 62, 15);
     background-color: rgb(255, 247, 234);
@@ -386,6 +403,9 @@ width: 15px;
      }
 
   100% {
+    transform: rotate(325deg); /* Rotate a full 360 degrees */
+  }
+  112.5% {
     transform: rotate(360deg); /* Rotate a full 360 degrees */
   }
 }
