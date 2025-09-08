@@ -5,7 +5,7 @@ let estadoOriginal = true;
 titulo.addEventListener("click", () => {
     if (estadoOriginal === true){
 titulo.innerText = "que preparé";
-titulo.style.color= "grey";
+titulo.style.color= "brown";
 }
 
 
